@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+}
+
+#beti{
+    animation: baap 1s ease alternate-reverse  infinite;
+    transform-origin: top;
+    
+       
+  
+    
+}
+@keyframes baap{
+    from{
+        transform: rotateX(0deg);
+    }
+    to{
+     transform: rotateX(40deg);
+
+    }
+}
+
+#baap{
+    animation: baaap 1s linear alternate  infinite;
+    transform-origin: top;
+    
+       
+  
+    
+}
+@keyframes baaap{
+    from{
+        transform: rotateX(0deg);
+    }
+    to{
+     transform: rotateX(15deg);
+
+    }
+}
